@@ -16,7 +16,11 @@ public class MainActivity extends AppCompatActivity {
 
     private void initListener() {
         findViewById(R.id.request).setOnClickListener(v -> {
-            Toast.makeText(this,"点击了",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"点击了获取",Toast.LENGTH_SHORT).show();
+        });
+
+        findViewById(R.id.clear).setOnClickListener(v -> {
+            Toast.makeText(this,"点击了清除",Toast.LENGTH_SHORT).show();
         });
     }
 

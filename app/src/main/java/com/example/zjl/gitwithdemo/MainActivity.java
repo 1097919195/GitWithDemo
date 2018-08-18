@@ -1,5 +1,6 @@
 package com.example.zjl.gitwithdemo;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
@@ -25,6 +26,11 @@ public class MainActivity extends AppCompatActivity {
 
         findViewById(R.id.download).setOnClickListener(v -> {
             Toast.makeText(this,"点击了下载",Toast.LENGTH_SHORT).show();
+        });
+
+        findViewById(R.id.btn).setOnClickListener(v -> {
+            Intent intent = new Intent(this,TestActivity.class);
+            startActivity(intent);
         });
     }
 

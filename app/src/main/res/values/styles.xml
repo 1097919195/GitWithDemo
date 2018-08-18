@@ -8,4 +8,16 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppWelcome" parent="AppTheme">
+        <item name="android:windowBackground">@mipmap/bg_welcome_start</item>
+    </style>
+
+    <style name="main_activity_style" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowDisablePreview">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@mipmap/bg_welcome_start</item>
+        <item name="android:background">@null</item>
+    </style>
+
 </resources>

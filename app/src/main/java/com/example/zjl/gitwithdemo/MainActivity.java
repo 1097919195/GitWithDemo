@@ -13,6 +13,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         initView();
         initListener();
+        initTest();
+    }
+
+    private void initTest() {
+        Toast.makeText(this,"测试git,所以不弹出",Toast.LENGTH_SHORT);
     }
 
     private void initListener() {
